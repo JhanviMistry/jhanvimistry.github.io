@@ -17,6 +17,7 @@ import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 
+
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
@@ -34,7 +35,7 @@ const Homepage = () => {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			let scroll = Math.round(window.pageYOffset, 2);
+			let scroll = Math.round(window.pageYOffset, 3);
 
 			let newLogoSize = 80 - (scroll * 4) / 10;
 
@@ -96,7 +97,8 @@ const Homepage = () => {
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-									{INFO.homepage.description}
+									<p>{INFO.homepage.description}</p>
+									<p>{INFO.homepage.description1}</p>
 								</div>
 							</div>
 
@@ -191,6 +193,9 @@ const Homepage = () => {
 							<div className="homepage-works">
 								<Works />
 							</div>
+
+                            
+
 						</div>
 
 						<div className="page-footer">

@@ -26,7 +26,7 @@
 }
 
 .about-right-side {
-	flex-basis: 900px;
+	flex-basis: 800px;
 }
 
 .about-title {
@@ -67,6 +67,18 @@
 
 .about-socials-mobile {
 	display: none;
+}
+
+.about-edu {
+	flex-basis: 600px;
+	padding-top: 30px;
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+}
+
+.about-after-title {
+	display: flex;
 }
 
 @media (max-width: 1024px) {

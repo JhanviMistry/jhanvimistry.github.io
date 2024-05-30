@@ -1,31 +1,40 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
-		logo: "../logo.png",
+		title: "Jhanvi",
+		name: "Jhanvi Mistry",
+		email: "jhanvimistry104@gmail.com",
+		logo: "../jlogo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
+		twitter: "https://twitter.com/jhanvimistry1",
+		github: "https://github.com/JhanviMistry/",
+		linkedin: "https://www.linkedin.com/in/jhanvimistry104/",
+		instagram: "https://www.instagram.com/jhanvimistry104/",
 		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		facebook: "https://www.facebook.com/jhanvi.mistry.75?mibextid=ZbWKwL",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Hey there..! 👋 I'm Jhanvi :)",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
-	},
+			"I am a Software developer with expertise in Python. I have experience in building scalable, secure and reliable functionalities using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I always look for new challenges and opportunities to grow as a developer.",
+		description1:
+			"Working on making my Life better everyday 💪",
+		},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "Jhanvi Mistry",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
-	},
+			"All you ever wanted to know...😁",
+		description1:
+			"I'm Jhanvi and I'm from aamchi Mumbai 😍. ",
+		description2:
+			"My computer journey started when I was in high school (11th grade), as a Computer Science student. Which eventually encouraged me to persue Informaiton Technology for the Undergrad at VJTI.  ",
+		description3:
+			"As a Python developer at Tata Consultancy Services (TCS), I work in BFSI domain at one of the biggest Canadian bank CIBC. Working here equipped me with core skills including financial accumen, analytical skills, communication and customer service. I had the oppotunity to apply core python to build the functionalities. Have worked on various projects that involve the implementation of major python libraries such as NumPy, Pandas, SciPy. ",
+		
+		},
 
 	articles: {
 		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
@@ -35,33 +44,33 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "RestBot",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "../pythonlogo.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 2",
+			title: "Ethereum",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			logo: "../ethereumlogo.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 3",
+			title: "RateMe",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			logo: "../hadooplogo.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
-		{
+		{/*{
 			title: "Project 4",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
@@ -77,7 +86,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
-		},
+		},*/}
 	],
 };
 

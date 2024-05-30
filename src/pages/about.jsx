@@ -5,6 +5,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
+import Institute from  "../components/about/education";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -46,8 +47,16 @@ const About = () => {
 								</div>
 
 								<div className="subtitle about-subtitle">
-									{INFO.about.description}
+									<p>{INFO.about.description}</p>
+									<p>{INFO.about.description1}</p>
+									<p>{INFO.about.description2}</p>
+									<p>{INFO.about.description3}</p>
 								</div>
+
+								<div className="about-edu">
+								<Institute />
+								</div>
+
 							</div>
 
 							<div className="about-left-side">

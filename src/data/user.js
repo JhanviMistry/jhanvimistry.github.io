@@ -3,7 +3,7 @@ const INFO = {
 		title: "Jhanvi",
 		name: "Jhanvi Mistry",
 		email: "jhanvimistry104@gmail.com",
-		logo: "../jlogo.png",
+		logo: "mjportfolio/public/jlogo.png",
 	},
 
 	socials: {

@@ -1,12 +1,12 @@
 {
-	
-	"name": "jhanvimistry",
+	"homepage": "https://jhanvimistry.github.io/mjportfolio",
+	"name": "mj_portfolio",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
+		"name": "Jhanvi Mistry",
+		"email": "jhanvimistry104@gmail.com",
+		"url": ""
 	},
 	"license": "MIT",
 	"private": true,
@@ -24,7 +24,7 @@
 		"react-ga4": "^2.1.0",
 		"react-helmet": "^6.1.0",
 		"react-router-dom": "^6.11.1",
-		"react-scripts": "5.0.1",
+		"react-scripts": "^3.0.1",
 		"styled-components": "^5.3.10",
 		"web-vitals": "^2.1.4"
 	},
@@ -35,11 +35,10 @@
 		"eject": "react-scripts eject",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build"
-		
 	},
 	"eslintConfig": {
 		"extends": [
-			"react-app", 
+			"react-app",
 			"react-app/jest"
 		]
 	},
@@ -58,8 +57,5 @@
 	"prettier": {
 		"useTabs": true,
 		"tabWidth": 4
-	},
-	"devDependencies": {
-		"gh-pages": "^6.1.1"
 	}
 }
